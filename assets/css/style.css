@@ -1,0 +1,311 @@
+/* header_section */
+.header_section{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.header_section .navbar .navbar-brand .fa-camera-retro{
+    font-size: 26px;
+    display: inline-block;
+    background: #48d1cc;
+    height: 50px;
+    width: 50px;
+    color: #ffff;
+    border-radius: 42px;
+    padding-top: 11px;
+    padding-left: 11px;
+}
+.header_section .navbar .navbar-brand {
+    font-weight: 600;
+    color: 	#008080;
+    font-size: 30px;
+}
+.header_section .navbar .navbar-brand .sk_span{
+    color: #48d1cc;
+}
+.header_section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: 	#008080	;
+}
+.header_section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    font-weight: 600;
+    color: #48d1cc;
+}
+.header_section .navbar .navbar-collapse .con-icon .con-ion-aref{
+    display: inline-block;
+    background: #48d1cc;
+    color: #ffff;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-top: 4px;
+    border-radius: 30px;
+}
+/* ======================================================================== */
+.banner_section .container-fluid .jumbotron{
+    height: 720px;
+    width: 100%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.banner_section .container-fluid .jumbotron .container-fluid{
+    background-image: url('./img/gallary_row-2\(1\).jpeg');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    color:whitesmoke;
+}
+.banner_section .container-fluid .jumbotron .container-fluid:hover{
+    background-image: url('./img/gallary2_row3\(2\).jpeg');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    color:#48d1cc;
+}
+.banner_section .container-fluid .jumbotron .container-fluid .display-4{
+    font-weight: 700;
+    width: 30%;
+}
+.banner_section .container-fluid .jumbotron .container-fluid .lead{
+    width: 70%;
+}
+/* =============================================================================== */
+.about-section{
+    width: 100%;
+}
+.about-section .container .row{
+    width: 100%;
+
+}
+.about-section .container .row .col_1{
+    height: 580px;
+
+}
+.about-section .container .row .col_1 .my-pic{
+    height: 100%;
+    width: 100%;
+    background-color: #48d1cc;
+    background-image: url('./img/about.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-section .container .row .col .about{
+    color:cadetblue;
+}
+.about-section .container .row .col .about-span{
+    color: #008080;
+    font-size: 21px;
+    font-weight: 600;
+    font-style: italic;
+}
+.about-section .container .row .col .about-p1{
+    color: #48d1cc;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.about-section .container .row .col .about-p2{
+    color: #008080;
+}
+/* ================================================================== */
+.Services-section .container .text-center{
+    color: cadetblue
+}
+.Services-section .container .text-p{
+    color:#008080;
+    font-size: 20px;
+}
+.Services-section .container-fluid .row .col .box1{
+    height: 200px;
+    background:	whitesmoke;
+    border-radius: 5px;
+}
+.Services-section .container-fluid .row .col .box1 .box-text{
+    color: #008080 ;
+
+}
+.Services-section .container-fluid .row .col .box1:hover .box-text{
+    color: whitesmoke ;
+
+}
+
+.Services-section .container-fluid .row .col .box1:hover{
+    background: #008080;
+    box-shadow: 1px 1px 10px grey;
+
+ }
+ .Services-section .container-fluid .row .col .box1 .box-icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    color: whitesmoke;
+    background: #48d1cc;
+    padding-top: 13px;
+    padding-left: 17px;
+    font-size: 22px;
+    margin-left: 42%;
+
+ }
+ .Services-section .container-fluid .row .col .box1:hover .box-icon{
+    background: whitesmoke;
+    color: #48d1cc;
+}
+ .Services-section .container-fluid .row .col .box1 .box-icon .areng{
+    margin-left: 0px;
+    font-size: 25px;
+    margin-top: 5px;
+ }
+/* ============================================================================= */
+.gallary-section .container .row .col{
+    margin-bottom: 10px;
+}
+.gallary-section .gallary-more{
+    color:#008080;
+}
+.gallary-section .container .text-center{
+    color: cadetblue
+}
+.gallary-section .container .gallary-more{
+    color:whitesmoke;
+    background: #008080;
+    cursor: pointer;
+}
+.gallary-section .container .gallary-more:hover{
+    color:#008080 !important;
+    background:whitesmoke !important;
+    border: #48d1cc 1px solid;
+    outline: 0 !important;
+}
+
+.gallary-section .container .text-p{
+    color:#008080;
+    font-size: 20px;
+}
+/* ============================================================================= */
+.team-section .container .text-center{
+    color: cadetblue;
+}
+.team-section .container .text-p{
+    color:#008080;
+    font-size: 20px;
+}
+
+
+.team-section .container-fluid .row .col .con-icon .con-ion-aref{
+    display: inline-block;
+    background: #48d1cc;
+    color: #ffff;
+    height: 40px;
+    width: 40px;
+    font-size: 19px;
+    padding-left: 11px;
+    padding-top: 6px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.team-section .container-fluid .row .col .con-icon .con-ion-aref:hover{
+    color: #ffff;
+    background: #008080;
+}
+
+.team-section .container-fluid .row .col .card .card-body .card-tit{
+    color:cadetblue;
+}
+ .team-section .container-fluid .row .col .card .card-body .card-p{
+    color: #48d1cc;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    
+} 
+/* =========================================================================== */
+.contect-section .text-center{ 
+    color: cadetblue;
+}
+.contect-section .container .row .col .box .form-group .label{
+    color: cadetblue;
+    font-weight: 600;
+     font-size: 15px;
+}
+.contect-section .container .row .col .box .form-group .form-box{
+    border: 1px #48d1cc solid;
+}
+.contect-section .container .row .col .box .send{
+    color: whitesmoke !important;
+    background: #008080 !important;
+    cursor: pointer !important;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 6px;
+    width: 10%;
+    transition: ease-out 0.5s;
+    border: #48d1cc 1px solid;
+    outline: 0;
+}
+
+.contect-section .container .row .col .box .send:hover{
+    color:#008080 !important;
+    background: whitesmoke !important;; 
+    border: #48d1cc 1px solid;
+    transition: ease-in 0.5s;
+    outline: 0;
+}
+/* ================================================================== */
+.end-section{
+    box-shadow: 1px 1px 10px #778899;
+}
+.end-section .container-fluid .row .col .span,.end-section .container-fluid .row .col .con-icon .text-center .span{
+  color: cadetblue;
+  font-weight: 700;
+}
+.end-section .container-fluid .row .col .con-icon .con-ion-aref{
+    display: inline-block;
+    background: #48d1cc;
+    color: #ffff;
+    height: 40px;
+    width: 40px;
+    font-size: 19px;
+    padding-left: 11px;
+    padding-top: 6px;
+    border-radius: 30px;
+}
+.end-section .container-fluid .row .col .con-icon .con-ion-aref:hover{
+    color: #ffff;
+    background: #008080;
+}
+.end-section .container-fluid .row .col .address,.end-section .container-fluid .row .col .span-text{
+    color: #778899;
+    font-weight: 400; 
+}
+.end-section .container-fluid .row .col .address{
+ width: 50%;
+}
+.end-section .container-fluid .row .col .ul-mom .ul-chld .aref{
+   text-decoration: none;
+   color: #778899;
+   font-weight: 400;
+}
+.end-section .container-fluid .row .col .ul-mom .ul-chld {
+    list-style: none;
+    
+}
+.end-section .container-fluid .row .col .text-p{
+    color: #778899;
+    font-weight: 400; 
+    text-align: justify; 
+}
+.end-section .container-fluid .row .col .ul-mom .ul-chld .aref:hover{
+    font-weight: 600;
+    color:#48d1cc;
+}
