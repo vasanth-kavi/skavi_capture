@@ -248,7 +248,8 @@
     border-radius: 0.25rem;
     font-size: 1rem;
     padding: 6px;
-    width: 10%;
+     padding-left: 5%;
+    padding-right: 5%;
     transition: ease-out 0.5s;
     border: #48d1cc 1px solid;
     outline: 0;
